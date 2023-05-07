@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/teeth/teeth.png
+image: img/teeth/teeth.jpeg
 title: "Anomaly Detection for Teeth Image Classification"
 date: 2021.09
 published: true
