@@ -6,11 +6,11 @@
     "email": "hop7311@gmail.com",
     "phone": "010-5029-3411",
     "website": "https://Sangh0.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "summary": "I am interested in computer vision deep learning. I aspire to leverage the power of artificial intelligence to create a more convenient world.",
+    "location": { "address": "", "postalCode": "17058", "city": "Yong-in", "countryCode": "Republic of Korea", "region": "Gyeonggi-do" },
     "profiles": [
       { "network": "github", "username": "Sangh0", "url": "http://github.com/Sangh0" },
-      { "network": "linkedin", "username": "sanghokim333", "url": "http://linkedin.com/in/sanghokim333" }
+      { "network": "linkedin", "username": "sanghokim333", "url": "http://linkedin.com/in/sanghokim33" }
     ]
   },
   "interests": [
@@ -35,8 +35,8 @@
       "institution": "Ajou University",
       "area": "Mathematics",
       "studyType": "Master Student",
-      "startDate": "2022-09",
-      "endDate": "2023-08",
+      "startDate": "2022.09",
+      "endDate": "2023.08",
       "courses": [
         "Computer Vision Deep Learning",
         "Thesis: Obstacle Detection on Road based on Deep Learning"
@@ -46,8 +46,8 @@
       "institution": "Myongji University",
       "area": "Mathematics",
       "studyType": "Master Student",
-      "startDate": "2021-09",
-      "endDate": "2022-08",
+      "startDate": "2021.09",
+      "endDate": "2022.08",
       "courses": [
         "Machine Learning and Deep Learning"
       ]
@@ -56,8 +56,8 @@
       "institution": "Myongji University",
       "area": "Mathematics",
       "studyType": "Bachelor of Science",
-      "startDate": "2017-03",
-      "endDate": "2021-08",
+      "startDate": "2017.03",
+      "endDate": "2021.08",
       "courses": [
         "Applied Mathematics and Machine Learning"
       ]
@@ -68,39 +68,51 @@
       "company": "DareeSoft Inc.",
       "position": "AI Researcher",
       "website": "",
-      "startDate": "2022-06",
-      "endDate": "2022-08",
-      "summary": "Head of online presence for Ka Leo",
+      "startDate": "2022.06",
+      "endDate": "2022.08",
+      "summary": "AI 모델 구축 및 성능 개선",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Object Detection 모델 구축, 성능 개선 (YOLOv7, YOLO-fastest, YOLOv4)",
+        "Model Quantization",
+        "Data Labeling",
+        "팀원들의 업무 능력 증진을 위한 딥러닝 스터디 주도"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
+      "organization": "Object Detection for Understanding Scene on Road",
+      "website": "",
+      "position": "",
+      "startDate": "2023.01",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "summary": "자동차의 안전한 도로 주행을 위해 도로 위 위험 요소를 탐지하는 모델 구축",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "무단 횡단 보행자, 공사 현장, 사고 3개 클래스 탐지"
       ]
     },
     {
-      "organization": "",
+      "organization": "Flooming",
       "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "position": "",
+      "startDate": "2022.06",
+      "endDate": "2022.09",
+      "summary": "꽃 이미지를 분류하고 그림으로 변환해주는 서비스 어플리케이션",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "얼레지, 노루귀, 애기똥풀, 민들레 등 28개 클래스 분류",
+        "모바일 하드웨어에서의 빠른 추론 속도를 위해 ShuffleNetV2로 분류 모델, Neural Style Transfer로 꽃 이미지를 그림으로 변환해주는 모델 구축",
+        "구글 플레이 스토어 및 애플 앱스토어 출시 (Flooming)"
+      ]
+    },
+    {
+      "organization": "Anomaly Detection for Teeth Image Classification",
+      "website": "",
+      "position": "",
+      "startDate": "2021.09",
+      "endDate": "2021.12",
+      "summary": "치아 이미지 분류를 위한 Anomaly Detection 알고리즘 개발",
+      "highlights": [
+        "Isolation Forest, Binary Classification CNN, AutoEncoder 구축"
       ]
     }
   ],
@@ -109,15 +121,11 @@
       "title": "2022 안전한 자율주행을 위한 인공지능 알고리즘 개발 챌린지",
       "date": "2022-11-18",
       "awarder": "교통안전공단",
-      "summary": [
-          "2D Semantic Segmentation",
-          "장려상 수상"
-        ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Available upon request"
+      "summary": "",
+      "highlights": [
+        "2D Semantic Segmentation",
+        "장려상 수상"
+      ]
     }
   ]
 }
