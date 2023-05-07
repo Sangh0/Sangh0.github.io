@@ -1,5 +1,5 @@
 # Professional Portfolio
-- (My Portfolio)[https://sangh0.github.io/]
+- [My Portfolio](https://sangh0.github.io/)
 
 ### Introduction  
 <img src = "https://github.com/Sangh0/Sangh0.github.io/blob/main/img/sangho_intro_github.png?raw=true">  
