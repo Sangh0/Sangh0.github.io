@@ -1,71 +1,79 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
+    "name": "Sangho Kim",
+    "label": "Deep Learning Researcher",
+    "picture": "https://github.com/Sangh0.png",
+    "email": "hop7311@gmail.com",
+    "phone": "010-5029-3411",
+    "website": "https://Sangh0.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "Sangh0", "url": "http://github.com/Sangh0" },
+      { "network": "linkedin", "username": "sanghokim333", "url": "http://linkedin.com/in/sanghokim333" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Computer Vision Deep Learning" },
+    { "name": "Real-time Semantic Segmentation" },
+    { "name": "Real-time Object Detection" },
+    { "name": "Vision Transformer" },
+    { "name": "Self-Supervised Learning" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "Python", "PyTorch", "Tensorflow", "Keras", "Scikit-Learn" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "Others",
+      "keywords": [ "Linux", "Git/GitHub" ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
+      "institution": "Ajou University",
+      "area": "Mathematics",
+      "studyType": "Master Student",
+      "startDate": "2022-09",
+      "endDate": "2023-08",
       "courses": [
+        "Computer Vision Deep Learning",
+        "Thesis: Obstacle Detection on Road based on Deep Learning"
+      ]
+    },
+    {
+      "institution": "Myongji University",
+      "area": "Mathematics",
+      "studyType": "Master Student",
+      "startDate": "2021-09",
+      "endDate": "2022-08",
+      "courses": [
+        "Machine Learning and Deep Learning"
+      ]
+    },
+    {
+      "institution": "Myongji University",
+      "area": "Mathematics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2017-03",
+      "endDate": "2021-08",
+      "courses": [
+        "Applied Mathematics and Machine Learning"
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "DareeSoft Inc.",
+      "position": "AI Researcher",
       "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
+      "startDate": "2022-06",
+      "endDate": "2022-08",
       "summary": "Head of online presence for Ka Leo",
       "highlights": [
         "Maintain, update, and oversee official college newspaper website",
         "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
       ]
     }
   ],
@@ -98,16 +106,13 @@
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "2022 안전한 자율주행을 위한 인공지능 알고리즘 개발 챌린지",
+      "date": "2022-11-18",
+      "awarder": "교통안전공단",
+      "summary": [
+          "2D Semantic Segmentation",
+          "장려상 수상"
+        ]
     }
   ],
   "references": [
