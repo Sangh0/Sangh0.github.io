@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/gan/gan.png
+image: img/gan/gan.jpeg
 title: "Research GAN"
 date: 2022.01
 published: true
