@@ -13,9 +13,11 @@ summary: "GAN의 메커니즘을 이해하기 위한 연구"
 ---
 
 ## Early stage of training
-<img class="img-fluid" src="../img/gan/gan_1.png">
+<img class="img-fluid" src="../img/gan/gan_1.png">  
+
 ## Middle stage of training
-<img class="img-fluid" src="../img/gan/gan_2.png">
+<img class="img-fluid" src="../img/gan/gan_2.png">  
+
 ## Late stage of training
 <img class="img-fluid" src="../img/gan/gan_3.png">
 
