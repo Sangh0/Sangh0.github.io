@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/challange/challenge.png
+image: img/challenge/challenge.png
 title: "안전한 자율주행을 위한 인공지능 알고리즘 개발 챌린지"
 date: 2022.09
 published: true
@@ -12,7 +12,7 @@ labels:
 summary: "자율 주행을 위한 2D Semantic Segmentation 모델 개발 챌린지"
 ---
 
-<img class="img-fluid" src="../img/challenge/challenge_ex.png">
+<img class="img-fluid" src="../img/challenge/challenge_ex.jpeg">
 
 ### 담당 역할  
 - 이미지 데이터 시각화 분석 및 Label 전처리
