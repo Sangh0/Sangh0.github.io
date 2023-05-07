@@ -12,7 +12,9 @@ labels:
 summary: "GAN의 메커니즘을 이해하기 위한 연구"
 ---
 
-<img class="img-fluid" src="../img/gan/gan_ex.png">
+<img class="img-fluid" src="../img/gan/gan_1.png">
+<img class="img-fluid" src="../img/gan/gan_2.png">
+<img class="img-fluid" src="../img/gan/gan_3.png">
 
 ### 담당 역할  
 - GAN 관련 논문 리뷰 및 구현
