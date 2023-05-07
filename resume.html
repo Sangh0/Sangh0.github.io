@@ -211,6 +211,13 @@ layout: home
               <b>{{ entry.title }}</b>, {{ entry.awarder }}
             </p>
             <p class="mb-0">{{ entry.summary }}</p>
+            {% if entry.highlights %}
+                <ul>
+                {% for highlight in entry.highlights %}
+                  <li>{{ highlight }}</li>
+                {% endfor %}
+              </ul>
+              {% endif %}
           </div>
           <div class="col-3">
             <p class="m-0 text-end">
