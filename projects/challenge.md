@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/challenge/challenge.png
+image: img/challenge/challenge1.png
 title: "안전한 자율주행을 위한 인공지능 알고리즘 개발 챌린지"
 date: 2022.09
 published: true
