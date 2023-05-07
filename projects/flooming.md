@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/flooming/flooming.png
 title: "Flooming"
-date: 2022
+date: 2022.06
 published: true
 labels:
   - flower
