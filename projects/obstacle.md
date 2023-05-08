@@ -13,7 +13,7 @@ labels:
 summary: "시각 장애인과 배달 로봇을 위한 도로 위험물을 탐지하는 Object Detection 모델 구축"
 ---
 
-<img class="img-fluid" src="../img/flooming/obstacle_ex.png">
+<img class="img-fluid" src="../img/obstacle/obstacle_ex.png">
 
 ### 담당 역할  
 - AIHub 데이터셋 다운로드 및 전처리
