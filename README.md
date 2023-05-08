@@ -1,4 +1,4 @@
-# Professional Portfolio
+# Portfolio and Resume
 - [My Portfolio](https://sangh0.github.io/)
 
 ### About ME  
