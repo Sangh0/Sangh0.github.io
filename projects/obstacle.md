@@ -14,6 +14,8 @@ summary: "시각 장애인과 배달 로봇을 위한 도로 위험물을 탐지
 ---
 
 <img class="img-fluid" src="../img/obstacle/obstacle_ex.png">
+<img class="img-fluid" src="../img/obstacle/obstacle_median.png">
+
 
 ### 담당 역할  
 - AIHub 데이터셋 다운로드 및 전처리
@@ -22,7 +24,8 @@ summary: "시각 장애인과 배달 로봇을 위한 도로 위험물을 탐지
 - 모델 학습 및 결과 분석, 하이퍼파라미터 튜닝
 
 
-### 성과
+### 데이터셋 및 성과
+- person, car, bus, truck, bicycle, motor cycle 등 26개 클래스 탐지
 - mean Average Precision 68.7
 
 
