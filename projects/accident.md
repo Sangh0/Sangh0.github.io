@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/obstacle/obstacle.png
+image: img/accident/accident.jpg
 title: "Object Detection for Understanding Scene on Road"
 date: 2023.01
 published: true
@@ -11,7 +11,7 @@ labels:
 summary: "자동차의 안전한 도로 주행을 위해 도로 위 위험 요소를 탐지하는 모델 구축"
 ---
 
-<img class="img-fluid" src="../img/obstacle/obstacle_ex.png">
+<img class="img-fluid" src="../img/accident/accident_ex.jpg">
 
 ### 담당 역할  
 - 유튜브를 활용해 데이터 수집
