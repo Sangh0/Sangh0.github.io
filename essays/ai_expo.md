@@ -9,7 +9,7 @@ labels:
   - AI EXPO, COEX
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
+<img width="300px" class="rounded float-start pe-4" src="../img/feeds/aiexpo.jpg">
 
 *Overview: 산업 현장에서 AI의 활용 사례를 파악하기 위해 방문*  
 
