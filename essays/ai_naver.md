@@ -9,7 +9,7 @@ labels:
   - AI Association, NAVER
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/feeds/ai_association.jpg">
+<img width="280px" class="rounded float-start pe-4" src="../img/feeds/ai_association.jpg">
 
 *Overview: 한국인공지능 학회 첫 참가*
 
