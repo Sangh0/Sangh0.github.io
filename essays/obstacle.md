@@ -9,7 +9,6 @@ labels:
   - Obstacle Detection, Meeting
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
 
 *Overview: 논문을 쓰기 전, 사전 조사*
 
