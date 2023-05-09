@@ -2,7 +2,7 @@
 - [My Portfolio](https://sangh0.github.io/)
 
 ### About ME  
-<img src = "https://github.com/Sangh0/Sangh0.github.io/blob/main/img/sangho_intro_github.png?raw=true">  
+<img src = "https://github.com/Sangh0/Sangh0.github.io/blob/main/img/sangho_intro_github_readme.png?raw=true">  
 
 ### Resume
 - [Download](https://github.com/Sangh0/Sangh0.github.io/blob/main/resume.pdf)  
