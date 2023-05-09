@@ -9,7 +9,6 @@ labels:
   - GAN, Research
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
 
 *Overview: GAN이 너무 신기해서 공부를 시작했습니다.*
 
