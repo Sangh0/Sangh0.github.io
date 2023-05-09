@@ -9,7 +9,6 @@ labels:
   - DareeSoft, YTN, 기술자들
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
 
 *Overview: 다리소프트에서 인턴으로 근무 중, YTN의 기술자들에 출연했습니다.*
 
