@@ -9,7 +9,7 @@ labels:
   - NeurIPS, Preview
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/feeds/neurips_preview.jpg">
+<img width="400px" class="rounded float-start pe-4" src="../img/feeds/neurips_preview.jpg">
 
 *Overview: 서울대학교에서 진행한 NeurIPS 2022 Preview 컨퍼런스에 참가했습니다.*
 
