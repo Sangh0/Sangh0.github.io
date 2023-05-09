@@ -9,7 +9,7 @@ labels:
   - KSIAM, Busan
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/feeds/2021_ksiam_busan.jpg">
 
 *Overview: 대학원 입학 후, 첫 학회 참석*
 
