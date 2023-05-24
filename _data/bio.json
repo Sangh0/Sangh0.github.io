@@ -14,7 +14,8 @@
     ]
   },
   "interests": [
-    { "name": "Computer Vision Deep Learning" },
+    { "name": "Computer Vision" },
+    { "name": "Deep Learning" },
     { "name": "Real-time Semantic Segmentation" },
     { "name": "Real-time Object Detection" },
     { "name": "Vision Transformer" },
@@ -34,18 +35,18 @@
     {
       "institution": "Ajou University",
       "area": "Mathematics",
-      "studyType": "Master Student",
+      "studyType": "Master's degree",
       "startDate": "2022.09",
       "endDate": "2023.08",
       "courses": [
-        "Computer Vision Deep Learning",
+        "Computer Vision and Deep Learning",
         "Thesis: Obstacle Detection on Road based on Deep Learning"
       ]
     },
     {
       "institution": "Myongji University",
       "area": "Mathematics",
-      "studyType": "Master Student",
+      "studyType": "Master's program",
       "startDate": "2021.09",
       "endDate": "2022.08",
       "courses": [
@@ -125,6 +126,17 @@
       "highlights": [
         "2D Semantic Segmentation",
         "장려상 수상"
+      ]
+    }
+  ],
+  "talks": [
+    {
+      "title": "Poster Sesseion Presentation",
+      "date": "2023.05.20",
+      "awarder": "Korean Society for Industrial and Applied Mathematics",
+      "summary": "",
+      "highlights": [
+        "Title: Obstacle Detection on Road based on Deep Learning",
       ]
     }
   ]
