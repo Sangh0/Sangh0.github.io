@@ -9,7 +9,7 @@ labels:
   - Collecting Dataset
 ---
 
-<img width="500px" class="rounded float-start pe-4" src="../img/feeds/blindover.jpeg">
+<img width="500px" class="rounded float-start pe-4" src="../img/feeds/cider.JPG">
 
 *Overview: 장애 플러스 기술 해커톤 대회를 위한 데이터셋 수집*  
 
