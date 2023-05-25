@@ -6,7 +6,7 @@ title: "오산 시각장애인 협회 방문"
 date: 2023-05-20
 published: true
 labels:
-  - Poster Presentation, KSIAM
+  - Blind Individuals, Advice
 ---
 
 <img width="500px" class="rounded float-start pe-4" src="../img/feeds/blindover.jpeg">
