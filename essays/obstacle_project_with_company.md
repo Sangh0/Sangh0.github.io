@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "회사와의 프로젝트 협업 요청 시도!"
+title: "회사와의 프로젝트 협업 요청"
 # All dates must be YYYY-MM-DD format!
 date: 2023-05-08
 published: true
