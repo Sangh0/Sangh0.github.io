@@ -9,7 +9,7 @@ labels:
   - Poster Presentation, KSIAM
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/feeds/ksiam_poster.png">
+<img width="500px" class="rounded float-start pe-4" src="../img/feeds/ksiam_poster.png">
 
 *Overview: 2023 KSIAM Spring Conference Poster Presentation*  
 
