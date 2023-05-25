@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "오산 시각장애인 협회 방문"
 # All dates must be YYYY-MM-DD format!
-date: 2023-05-20
+date: 2023-05-16
 published: true
 labels:
   - Blind Individuals, Advice
