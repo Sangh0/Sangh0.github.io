@@ -9,7 +9,7 @@ labels:
   - Project Collaboration, Obstacle Detection
 ---
 
-<img width="500px" class="rounded float-start pe-4" src="../img/feeds/collaboration.png">
+<img width="700px" class="rounded float-start pe-4" src="../img/feeds/collaboration.png">
 
 *Overview: 장애인 보조장치 개발 회사에게 Obstacle Detection 프로젝트 협업 요청*  
 
