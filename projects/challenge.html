@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="안전한 자율주행을 위한 인공지능 알고리즘 개발 챌린지 | Sangho Kim">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/Sangh0.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Sangho Kim">
+    <meta property="og:url" content="https://Sangh0.github.io/projects/challenge.html">
+    <meta property="og:title" content="안전한 자율주행을 위한 인공지능 알고리즘 개발 챌린지 | Sangho Kim">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/Sangh0.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>안전한 자율주행을 위한 인공지능 알고리즘 개발 챌린지 | Sangho Kim</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Sangho Kim</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Career Feeds</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">안전한 자율주행을 위한 인공지능 알고리즘 개발 챌린지</h1>
+ <p><img class="img-fluid" src="../img/challenge/challenge_ex.jpeg" /></p>
+
+<h3 id="담당-역할">담당 역할</h3>
+<ul>
+  <li>이미지 데이터 시각화 분석 및 Label 전처리</li>
+  <li>Real-time Semantic Segmentation 모델 구축</li>
+  <li>모델 학습 및 결과 분석, 하이퍼파라미터 튜닝</li>
+</ul>
+
+<h3 id="성과">성과</h3>
+<ul>
+  <li>장려상 수상</li>
+  <li>Mean IoU 80%, Pixel Accuracy 85%</li>
+</ul>
+
+<h3 id="회고">회고</h3>
+<ul>
+  <li>Problem 1. 오래 소요되는 학습 시간
+    <ul>
+      <li>polygon 형태의 label을 png format의 이미지로 변환해서 저장 후 학습 재시도</li>
+      <li>학습 시간 50% 감소</li>
+      <li>또한 이 과정에서 jpg format으로 저장하면 class index를 벗어나는 문제가 발생 (png format으로 저장!)</li>
+    </ul>
+  </li>
+  <li>Problem 2. Over-Fitting
+    <ul>
+      <li>원인 분석 결과, parking place, potted line, road mark 등 다른 클래스와 특성이 겹치는 경우 발견</li>
+      <li>불필요한 클래스는 Ignore index로 지정, 특성이 비슷한 클래스는 하나의 클래스로 묶어서 29개에서 15개 클래스로 줄여 재학습</li>
+      <li>Validation에서의 Mean IoU가 40%에서 45%로 증가</li>
+    </ul>
+  </li>
+  <li>Problem 3. 기대치보다 낮은 성능
+    <ul>
+      <li>데이터셋 이미지를 살펴본 결과, 주간과 야간 이미지로 이루어져 이를 분리 후 재학습</li>
+      <li>주간 이미지의 Mean IoU는 80%, 야간 이미지의 Mean IoU는 45%를 달성</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="시기-및-사용-기술">시기 및 사용 기술</h3>
+<ul>
+  <li>진행 기간: 2022.09.13 ~ 2022.11.13</li>
+  <li>인원: DL (3)</li>
+  <li>사용 기술: PyTorch</li>
+  <li>모델: BiSeNetV2, PIDNet</li>
+</ul>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

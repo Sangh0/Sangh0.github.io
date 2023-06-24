@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Anomaly Detection for Teeth Image Classification | Sangho Kim">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/Sangh0.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Sangho Kim">
+    <meta property="og:url" content="https://Sangh0.github.io/projects/teeth.html">
+    <meta property="og:title" content="Anomaly Detection for Teeth Image Classification | Sangho Kim">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/Sangh0.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Anomaly Detection for Teeth Image Classification | Sangho Kim</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Sangho Kim</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Career Feeds</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Anomaly Detection for Teeth Image Classification</h1>
+ <p><img class="img-fluid" src="../img/teeth/teeth_ex.png" /></p>
+
+<h3 id="왜-일반적인-classification-task가-아닌-anoamly-detection-task인가">왜 일반적인 Classification task가 아닌 Anoamly Detection task인가?</h3>
+<ul>
+  <li>어플 내에서 일반적으로 유저들은 정상적인 치아 이미지를 업로드</li>
+  <li>그러나 흔하지 않은 경우로 치아 이미지가 아닌 다른 이미지가 업로드될 경우 이를 방지하기 위해 Anomaly Detection으로 접근</li>
+</ul>
+
+<h3 id="담당-역할">담당 역할</h3>
+<ul>
+  <li>이미지 데이터 정제 및 Labeling</li>
+  <li>머신러닝 파이프라인 설계 및 Isolation Forest 학습</li>
+  <li>pre-trained VGG16, ResNet50로 학습</li>
+  <li>모델 학습 및 결과 분석, 하이퍼파라미터 튜닝</li>
+</ul>
+
+<h3 id="성과">성과</h3>
+<ul>
+  <li>Anoamly Image Recall Score 100%</li>
+  <li>Classification Accuracy 95%</li>
+</ul>
+
+<h3 id="회고">회고</h3>
+<ul>
+  <li>Problem 1. 제각각인 치아 사진
+    <ul>
+      <li>다양한 각도에서 찍힌 치아 사진 중 정면 각도에서 찍힌 것, 치아와 입술이 충분히 포함되는 이미지만 학습 데이터로 사용</li>
+    </ul>
+  </li>
+  <li>Problem 2. 하이퍼파라미터 튜닝에 너무 많은 시간 소요
+    <ul>
+      <li>Unsupervised Learning 방식인 Isolation Forest는 하이퍼파라미터 튜닝이 어렵다는 문제 발생</li>
+      <li>validation set을 따로 구축하고 labeling을 진행해 Scikit-Learn의 GridSearchCV와 비슷한 기능을 하는 알고리즘 개발</li>
+      <li>그 결과 실험 시간이 단축</li>
+    </ul>
+  </li>
+  <li>Problem 3. 기준에 미치지 못하는 모델 성능
+    <ul>
+      <li>Isolation Forest 대신 CNN 모델 구축</li>
+      <li>AutoEncoder, Binary Classification CNN 등 구현</li>
+      <li>이때 Classification CNN을 학습할 때 치아 데이터의 비율이 90% 넘게 차지하는 문제 존재</li>
+      <li>치아 이미지는 Under sampling을 수행하고 그 외의 이미지 데이터(눈, 코, 강아지 등)를 Over sampling을 수행</li>
+      <li>치아 이미지와 특정 클래스 이미지로 Binary Classification으로 학습을 시킨 후 두 클래스에 해당되지 않는 이미지를 넣으면 score가 0.3 ~ 0.7로 애매한 값을 가질 것이라 가설 수립</li>
+      <li>그 후 치아 이미지에 대한 Threshold를 0.9로 높게 설정해 치아 외의 이미지는 분류하도록 설계</li>
+      <li>그 결과 Recall Score 100% 달성</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="시기-및-사용-기술">시기 및 사용 기술</h3>
+<ul>
+  <li>진행 기간: 2021.09.01 ~ 2022.12.31</li>
+  <li>인원: ML (3)</li>
+  <li>사용 기술: Tensorflow, Keras, OpenCV, Scikit-Learn</li>
+  <li>모델: VGG16, ResNet50, AutoEncoder, Customized CNN</li>
+</ul>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
